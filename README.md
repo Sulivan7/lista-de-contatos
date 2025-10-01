@@ -74,7 +74,7 @@ npm install
 npm start
 ```
 
-5. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+5. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador..
 
 ## 📋 Scripts Disponíveis
 
