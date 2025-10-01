@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+# 📞 Lista de Contatos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação web moderna para gerenciar seus contatos pessoais e profissionais, desenvolvida com React, TypeScript e Redux Toolkit.
 
-## Available Scripts
+## 🚀 Funcionalidades
 
-In the project directory, you can run:
+- ✅ **Adicionar Contatos**: Cadastre novos contatos com nome, email e telefone
+- 📝 **Editar Contatos**: Modifique informações dos contatos existentes
+- 🗑️ **Remover Contatos**: Delete contatos da sua lista
+- 🔍 **Filtrar Contatos**: Filtre contatos por categoria (Família, Amigos, Profissional)
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 18** - Biblioteca JavaScript para construção de interfaces
+- **TypeScript**
+- **Redux Toolkit**
+- **React Router DOM**
+- **Styled Components**
+- **React Redux**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Estrutura do Projeto
 
-### `npm test`
+```
+src/
+├── components/
+│   ├── BotaoAdicionar/
+│   ├── Contato/
+│   └── FiltroCard/
+├── containers/
+│   ├── BarraLateral/
+│   ├── Formulario/
+│   └── ListaDeContatos/
+├── modules/
+│   └── Contato.ts
+├── pages/
+│   ├── Cadastro/
+│   └── Home/
+├── store/
+│   └── reducers/
+├── styles/
+└── utils/
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como Executar
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório:
 
-### `npm run eject`
+```bash
+git clone https://github.com/Sulivan7/lista-de-contatos.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navegue até o diretório do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd lista-de-contatos
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Instale as dependências:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+4. Execute a aplicação:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+
+## 📋 Scripts Disponíveis
+
+- `npm start` - Executa a aplicação em modo de desenvolvimento
+- `npm test` - Executa os testes
+- `npm run build` - Gera build de produção
+- `npm run eject` - Remove a abstração do Create React App
+
+---
